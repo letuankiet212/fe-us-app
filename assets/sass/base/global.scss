@@ -6,3 +6,23 @@
 .style-guide-box {
   @include box(6.25rem)
 }
+
+.h-84 {
+  height: 5.25rem;
+}
+
+.h-50px {
+  height: 3.12rem;
+}
+
+.w-139px {
+  width: 139px;
+}
+
+.max-w-527px {
+  max-width: 32.9rem;
+}
+
+.max-w-960px {
+  max-width: 960px;
+}

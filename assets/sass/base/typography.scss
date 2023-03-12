@@ -14,6 +14,23 @@
   &-primary-300 {
     color: $color-primary-300
   }
+
+  &-secondary-0 {
+    color: $color-secondary-0
+  }
+
+  //Font-size
+  &-sm {
+    //.text-sm
+    font-size: $font-size-sm;
+    line-height: $sm-line-height;
+  }
+
+  &-md {
+    //.text-md
+    font-size: $font-size-md;
+    line-height: $md-line-height;
+  }
 }
 
 .bg {
@@ -34,8 +51,21 @@
   }
 }
 
-.rounded {
-  &-base {
-    border-radius: rem(8);
-  }
+.rounded-base {
+  border-radius: rem(8);
+}
+
+
+.rounded-none {
+  border-radius: none;
+}
+
+//font-weight
+
+.font-weight-semibold {
+  font-weight: $font-weight-semibold;
+}
+
+.font-weight-extrabold {
+  font-weight: $font-weight-extrabold;
 }
