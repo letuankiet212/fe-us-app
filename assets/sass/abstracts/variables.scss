@@ -1,0 +1,57 @@
+$color-black: #000;
+
+$color-blue: #00429b;
+$color-blue-20: #3264ff;
+
+$color-blue-dark: #10294d;
+$color-blue-dark-8: rgba($color-blue-dark, 0.08);
+
+$color-primary: #0f75e0;
+
+$color-purple-light: #647ef5;
+
+$color-white: #ffffff;
+$color-white-80: rgba($color-white, 0.8);
+
+$color-yellow: #fff4eb;
+$color-yellow-50: #ffe3cf;
+
+$font-family: 'Blinker';
+$font-weight-bold: 700 !default;
+$font-weight-semibold: 600 !default;
+$font-weight-medium: 500 !default;
+$font-weight-regular: 400 !default;
+$font-weight-light: 300 !default;
+
+// Font sizes
+$h1-font-size: 2.25rem; //36px
+$h2-font-size: 2rem;
+$h3-font-size: 1.75rem;
+$h4-font-size: 1.5rem;
+$h5-font-size: 1.25rem; // 20px
+$font-size-lg: 1.125rem; // 18px
+$font-size-base: 1rem; //16px
+$font-size-md: 0.875rem; //14px
+$font-size-sm: 0.75rem; //12px
+
+// Line height
+$h1-line-height: 3.75rem !default; //60px;
+$h2-line-height: 3rem !default;
+$h3-line-height: 2.625rem !default;
+$h4-line-height: 2.25rem !default;
+$h5-line-height: 1.875rem !default;
+$base-line-height: 1.6875rem !default;
+$md-line-height: 1.3125rem !default;
+$sm-line-height: 1.125rem !default;
+
+// Rounded
+$rounded: 0.5rem !default;
+
+// Sass variables
+$primary: $color-primary;
+$secondary: $color-white;
+// $danger:
+// $success:
+$warning: $color-yellow;
+// $info:
+// $border-color:

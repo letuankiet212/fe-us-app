@@ -1,0 +1,19 @@
+{
+  "login": {
+    "invalid_email_or_password": "Email or password is invalid",
+    "btnSubmit": "Sign In",
+    "forgotPassword": "Forgot password?",
+    "rememberMe": "Remember me",
+    "pleaseSignIn": "Please sign in",
+    "email": "Email",
+    "password": "Password"
+  },
+  "forgotPassword": {
+    "inputEmailToResetPassword": "Please provide your email address to get a reset password email",
+    "email": "Email address",
+    "btnSubmit": "Send reset email",
+    "alreadyHaveAnAccount": "Already have an account?",
+    "signIn": "Sign in",
+    "success": "A reset password email has been sent to your email address. Please check your email."
+  }
+}

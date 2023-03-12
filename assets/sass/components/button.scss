@@ -1,0 +1,21 @@
+.btn {
+    font-family: $font-family;
+
+    &-secondary {
+        color: $color-black;
+
+        &:hover {
+            color: $color-purple-light;
+        }
+    }
+
+    &-purple {
+        background-color: $color-purple-light;
+        color: $color-white;
+
+        &:hover {
+            background-color: $color-white;
+            color: $color-purple-light;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+@mixin box($width, $height: $width) {
+    width: $width;
+    height: $height;
+}
+
+$base-size: 16;
+@function rem($target, $context: $base-size) {
+    @return calc($target / $context) * 1rem;
+}

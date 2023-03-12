@@ -1,0 +1,20 @@
+.bg-service-group {
+    padding: rem(24);
+    border-radius: rem(8);
+
+    &.warning {
+        background: url('@/assets/images/service-card.png') no-repeat right
+                rem(24) top rem(4),
+            radial-gradient(
+                ellipse 30% 26% at 80% 0,
+                rgba(255, 233, 236, 0.6),
+                transparent
+            ),
+            radial-gradient(
+                ellipse 30% 26% at bottom left,
+                rgba(255, 233, 236, 0.6),
+                transparent
+            ),
+            #fcf9f6;
+    }
+}
