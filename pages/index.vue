@@ -1,9 +1,6 @@
 <template>
   <div>
-    hello word
-    <b-button variant="success" >
-      hello
-    </b-button>
+    Content 
   </div>
 </template>
 

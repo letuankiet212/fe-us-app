@@ -3,7 +3,13 @@ $color-primary-100: #6FBCA2;
 $color-primary-200: #396D5C;
 $color-primary-300: #336253;
 
+$color-gray-800: #2F2825;
+$color-gray-700: #515154;
 $color-gray-0: #fff;
+
+$color-warning: #FF8164;
+
+$color-secondary-0: #EFE6CB;
 
 $font-family: 'Raleway', sans-serif;
 
@@ -33,6 +39,14 @@ $base-line-height: 1.5rem !default; //24px
 $md-line-height: 1.25rem !default; //20px
 $sm-line-height: 1rem !default; //16px
 
+//input
+$input-border-width: 0 !default;
+$input-border-color: transparent !default;
+$input-border-radius: none !default;
+$input-placeholder-color: $color-primary-100 !default;
+
+$input-focus-color: transparent !default;
+
 // Rounded
 $rounded: 0.5rem !default;
 
@@ -41,6 +55,6 @@ $primary: $color-primary-200;
 $secondary: $color-gray-0;
 // $danger:
 // $success:
-// $warning: $color-yellow;
+$warning: $color-warning;
 // $info:
 // $border-color:
