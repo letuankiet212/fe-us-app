@@ -1,57 +1,46 @@
-$color-black: #000;
+$color-primary-0: #E0FFF5;
+$color-primary-100: #6FBCA2;
+$color-primary-200: #396D5C;
+$color-primary-300: #336253;
 
-$color-blue: #00429b;
-$color-blue-20: #3264ff;
+$color-gray-0: #fff;
 
-$color-blue-dark: #10294d;
-$color-blue-dark-8: rgba($color-blue-dark, 0.08);
+$font-family: 'Raleway', sans-serif;
 
-$color-primary: #0f75e0;
-
-$color-purple-light: #647ef5;
-
-$color-white: #ffffff;
-$color-white-80: rgba($color-white, 0.8);
-
-$color-yellow: #fff4eb;
-$color-yellow-50: #ffe3cf;
-
-$font-family: 'Blinker';
+$font-weight-extrabold: 800 !default;
 $font-weight-bold: 700 !default;
 $font-weight-semibold: 600 !default;
 $font-weight-medium: 500 !default;
-$font-weight-regular: 400 !default;
-$font-weight-light: 300 !default;
 
 // Font sizes
-$h1-font-size: 2.25rem; //36px
-$h2-font-size: 2rem;
-$h3-font-size: 1.75rem;
-$h4-font-size: 1.5rem;
+$h1-font-size: 3rem; //42px
+$h2-font-size: 2.25rem; //36px
+$h3-font-size: 1.875rem; //30px
+$h4-font-size: 1.5rem; //24px
 $h5-font-size: 1.25rem; // 20px
 $font-size-lg: 1.125rem; // 18px
 $font-size-base: 1rem; //16px
-$font-size-md: 0.875rem; //14px
+$font-size-md: .875rem; //14px
 $font-size-sm: 0.75rem; //12px
 
 // Line height
-$h1-line-height: 3.75rem !default; //60px;
-$h2-line-height: 3rem !default;
-$h3-line-height: 2.625rem !default;
-$h4-line-height: 2.25rem !default;
-$h5-line-height: 1.875rem !default;
-$base-line-height: 1.6875rem !default;
-$md-line-height: 1.3125rem !default;
-$sm-line-height: 1.125rem !default;
+$h1-line-height: 1 !default; //42px;
+$h2-line-height: 2.375rem !default; //38px
+$h3-line-height: 2.25rem !default; //36px
+$h4-line-height: 2rem !default; //32px
+$h5-line-height: 1.75rem !default; //28px
+$base-line-height: 1.5rem !default; //24px
+$md-line-height: 1.25rem !default; //20px
+$sm-line-height: 1rem !default; //16px
 
 // Rounded
 $rounded: 0.5rem !default;
 
 // Sass variables
-$primary: $color-primary;
-$secondary: $color-white;
+$primary: $color-primary-200;
+$secondary: $color-gray-0;
 // $danger:
 // $success:
-$warning: $color-yellow;
+// $warning: $color-yellow;
 // $info:
 // $border-color:

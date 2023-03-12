@@ -1,9 +1,8 @@
-.border {
-  &-base {
-    border-radius: rem(8);
-  }
-}
-
 .overflow-hidden {
   overflow: hidden;
+}
+
+//TODO: Need Remove 
+.style-guide-box {
+  @include box(6.25rem)
 }

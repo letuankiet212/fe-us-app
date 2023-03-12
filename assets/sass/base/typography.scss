@@ -1,0 +1,41 @@
+.text {
+  &-primary-0 {
+    color: $color-primary-0;
+  }
+
+  &-primary-100 {
+    color: $color-primary-100
+  }
+
+  &-primary-200 {
+    color: $color-primary-200
+  }
+
+  &-primary-300 {
+    color: $color-primary-300
+  }
+}
+
+.bg {
+  &-primary-0 {
+    background-color: $color-primary-0;
+  }
+
+  &-primary-100 {
+    background-color: $color-primary-100
+  }
+
+  &-primary-200 {
+    background-color: $color-primary-200
+  }
+
+  &-primary-300 {
+    background-color: $color-primary-300
+  }
+}
+
+.rounded {
+  &-base {
+    border-radius: rem(8);
+  }
+}
