@@ -1,21 +1,31 @@
 {
   "private": true,
+  "version": "1.0.0",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "prepare": "husky install",
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "release:major": "standard-version --release-as major"
   },
   "devDependencies": {
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.3",
     "bootstrap-vue-next": "^0.7.3",
+    "husky": "^8.0.0",
     "node-sass": "^8.0.0",
     "nuxt": "^3.2.3",
-    "sass": "^1.58.3"
+    "sass": "^1.58.3",
+    "standard-version": "^9.5.0"
   },
   "dependencies": {
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4",
     "@nuxtjs/i18n": "^8.0.0-beta.7",
     "vue-toastification": "^2.0.0-rc.5"
   }
