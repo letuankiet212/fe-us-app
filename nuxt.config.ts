@@ -8,7 +8,6 @@ export default defineNuxtConfig({
   ssr: Boolean(process.env.SRR_MODE),
 
   plugins: [
-    { src: "~/plugins/api-services.ts" },
     { src: "~/plugins/vue-toastificaton.client.ts", mode: "client" },
   ],
 
